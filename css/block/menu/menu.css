@@ -37,3 +37,9 @@
 .menu__list-item:nth-child(5) {
     grid-area: menu-ite5;
 }
+
+.menu__link--active {
+    font-weight: bold;
+    text-decoration: underline; /* Подчеркивание для выделенных пунктов */
+}
+
