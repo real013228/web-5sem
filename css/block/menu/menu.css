@@ -6,8 +6,8 @@
 
 .menu__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "menu-ite1 menu-ite2 menu-ite3 menu-ite4 menu-ite5";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "menu-ite1 menu-ite2 menu-ite3 menu-ite4 menu-ite5 menu-ite6";
 }
 
 .menu__list-item {
@@ -37,9 +37,13 @@
 .menu__list-item:nth-child(5) {
     grid-area: menu-ite5;
 }
+.menu__list-item:nth-child(6) {
+    grid-area: menu-ite6;
+}
+
 
 .menu__link--active {
     font-weight: bold;
-    text-decoration: underline; /* Подчеркивание для выделенных пунктов */
+    text-decoration: underline;
 }
 
