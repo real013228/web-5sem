@@ -33,5 +33,5 @@ function searchBooks() {
 
     localStorage.setItem('searchTerm', searchTerm);
 
-    window.location.href = 'C:\\Users\\real0\\OneDrive\\Рабочий стол\\LABS\\Web\\pages\\results.html';
+    window.location.href = '../pages/results.html';
 }
