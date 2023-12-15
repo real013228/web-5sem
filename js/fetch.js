@@ -55,6 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function handleError(errorMessage) {
     const contentElement = document.getElementById("content");
+    const errorElement = document.createElement("p");
+    errorElement.textContent = `⚠ Something went wrong: ${errorMessage}`;
+    errorElement.style.color = "red";
+    contentElement.appendChild(errorElement);
   }
 
   function shuffleArray(array) {
